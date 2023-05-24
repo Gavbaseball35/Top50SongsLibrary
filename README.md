@@ -20,3 +20,8 @@
 ##### songPosition {number} - The songs position on the top 50 chart
 ##### return {number} - The songs position
 ### function getPosition(songPosition){
+
+#### Library which returns the name of the song based on its position in the top 50. The name of teh song is stored as a string.
+##### trackName {string}- The songs name
+##### songPosition {number}- the songs position on the top 50
+### function getName(positionOnTop50){
